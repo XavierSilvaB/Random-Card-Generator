@@ -1,1 +1,79 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(0, 0, 0);
+}
+/*Propiedades del contendor de cuerpo de la carta*/
+.card {
+  margin-top: 5px;
+  background: white;
+  height: 400px;
+  width: 250px;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 15px;
+}
+
+.card :hover {
+  -webkit-box-shadow: 5px 5px 15px 8px #b2bdc2;
+  box-shadow: 5px 5px 15px 8px #b2bdc2;
+  border-radius: 20px;
+  transition-duration: 3s;
+}
+/*Propiedades del icono de la carta superior*/
+.top-suit {
+  position: absolute;
+  top: -19px;
+  left: 20px;
+  font-size: 80px;
+}
+/*Propiedades del icono de la carta inferior*/
+.bottom-suit {
+  position: absolute;
+  bottom: -19px;
+  right: 20px;
+  font-size: 80px;
+  transform: rotate(180deg);
+}
+/*Propiedades del numero de la carta*/
+.number {
+  position: absolute;
+  font-size: 90px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/*Propiedades del titulo*/
+.title1 {
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin: 8px 5px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+/*Propiedades del SUbtitulo*/
+.title2 {
+  padding: 4px 5px;
+  margin: 5px 15px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*Propiedades del Contenedor que contiene Subtitulo y imagen*/
+.data {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 95%;
+}
+/*Propiedades de la imagen*/
+.icon {
+  margin: 5px 15px;
+  height: 60px;
+  width: 140px;
+  border-radius: 5px;
+}
