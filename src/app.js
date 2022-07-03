@@ -32,7 +32,7 @@ window.onload = () => {
   topSuit.innerHTML = randomSuit;
   number.innerHTML = randomNumber;
   bottomSuit.innerHTML = randomSuit;
-  if (randomSuit == ":diamantes:" || randomSuit == ":corazones:") {
+  if (randomSuit == "♦" || randomSuit == "♥") {
     topSuit.style.color = "red";
     bottomSuit.style.color = "red";
   }
